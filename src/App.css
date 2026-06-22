@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Poppins;
+}
+
+/* ======= Headers Components ======= */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.header .logo {
+  width: 24px;
+  height: 24px;
+}
+
+.header .hamburger-menu {
+  width: 24px;
+  height: 24px;
+}
+
+.header h4{
+  font-weight: 600;
+}
