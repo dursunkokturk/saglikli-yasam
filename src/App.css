@@ -54,3 +54,12 @@ main .hero .featured-menus {
 main .hero .featured-example-menu {
   width: 100%;
 }
+
+main .features {
+  margin-bottom: 24px;
+}
+
+main .features h3 {
+  font-size: 22px;
+  font-weight: 600;
+}

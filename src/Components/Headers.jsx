@@ -22,6 +22,9 @@ export default function Headers() {
           </div>
           <img src={FeaturedExampleMenu} className='featured-example-menu' alt="" />
         </section>
+        <section className="features">
+          <h3>Izgara Hindi Göğsü, Buharda Pişirilmiş Kuşkonmaz ve Esmer Pirinç</h3>
+        </section>
       </main>
     </>
   )
