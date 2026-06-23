@@ -2,10 +2,12 @@ import FeaturedMenus from '../assets/img/featured-menus.png'
 import FeaturedExampleMenu from '../assets/img/featured--example-menu.png'
 import Star from '../assets/img/star.png'
 import IconLevel from '../assets/img/icon-level.png'
+import IconCalory from '../assets/img/icon-calory.png'
 
-export default function Main() {
+export default function FeaturedMenu() {
   return (
     <main>
+
       <section className="hero">
         <div className="title-and-featured-menu-button">
           <h6 className="title">Öne Çıkan Menü</h6>
@@ -13,6 +15,7 @@ export default function Main() {
         </div>
         <img src={FeaturedExampleMenu} className='featured-example-menu' alt="" />
       </section>
+
       <section className="features">
         <h3>Izgara Hindi Göğsü, Buharda Pişirilmiş Kuşkonmaz ve Esmer Pirinç</h3>
         <div className="meals">
@@ -59,6 +62,41 @@ export default function Main() {
               </div>
             </div>
             <button>Yemek Planına Ekle</button>
+          </div>
+        </div>
+      </section>
+
+      <section className="nutritional-values">
+        <div className="left">
+          <div className="nutritional-values-detail-card">
+            <img src={IconCalory} className='icon-calory' alt="" />
+            <div className="nutritional-values-detail-text">
+              <h6 className='title'>Kalori</h6>
+              <h6 className='value'>450 kcal</h6>
+            </div>
+          </div>
+          <div className="nutritional-values-detail-card">
+            <img src={IconCalory} className='icon-calory' alt="" />
+            <div className="nutritional-values-detail-text">
+              <h6 className='title'>Protein</h6>
+              <h6 className='value'>35 gr</h6>
+            </div>
+          </div>
+        </div>
+        <div className="right">
+          <div className="nutritional-values-detail-card">
+            <img src={IconCalory} className='icon-calory' alt="" />
+            <div className="nutritional-values-detail-text">
+              <h6 className='title'>Karbonhidratlar</h6>
+              <h6 className='value'>40 gr</h6>
+            </div>
+          </div>
+          <div className="nutritional-values-detail-card">
+            <img src={IconCalory} className='icon-calory' alt="" />
+            <div className="nutritional-values-detail-text">
+              <h6 className='title'>Yağ</h6>
+              <h6 className='value'>12 gr</h6>
+            </div>
           </div>
         </div>
       </section>

@@ -1,13 +1,13 @@
 import './App.css'
 import Headers from './Components/Headers'
-import Main from './Components/Main'
+import FeaturedMenu from './Components/FeaturedMenu'
 
 export default function App() {
 
   return (
     <>
       <Headers />
-      <Main />
+      <FeaturedMenu />
     </>
   )
 }

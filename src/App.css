@@ -139,3 +139,57 @@ main .features .meals .recipe-summary button {
   border: none;
   margin-bottom: 32px;
 }
+
+/* FeaturedMenus.jsx Component */
+main .nutritional-values {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .nutritional-values .left .nutritional-values-detail-card,
+main .nutritional-values .right .nutritional-values-detail-card {
+  border-radius: 8px;
+}
+
+main .nutritional-values .left .nutritional-values-detail-card,
+main .nutritional-values .right .nutritional-values-detail-card{
+  /* width: 152px; */
+  padding: 12px 0px;
+  padding-right: 59px;
+  margin-bottom: 12px;
+}
+main .nutritional-values .left .nutritional-values-detail-card:nth-child(1) {
+  background-color: #C2E66E;
+}
+
+main .nutritional-values .left .nutritional-values-detail-card:nth-child(2) {
+  background-color: #FFA257;
+}
+
+main .nutritional-values .right .nutritional-values-detail-card:nth-child(1) {
+  background-color: #FFCB65;
+}
+
+main .nutritional-values .right .nutritional-values-detail-card:nth-child(2) {
+  background-color: #E1E1E2;
+}
+
+main .nutritional-values .left .nutritional-values-detail-card {
+  display: flex;
+}
+
+main .nutritional-values .left .nutritional-values-detail-card img {
+  width: 16px;
+  height: 16px;
+  margin: 8px;
+}
+
+main .nutritional-values .right .nutritional-values-detail-card {
+  display: flex;
+}
+
+main .nutritional-values .right .nutritional-values-detail-card img {
+  width: 16px;
+  height: 16px;
+  margin: 8px;
+}
