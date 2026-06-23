@@ -62,4 +62,78 @@ main .features {
 main .features h3 {
   font-size: 22px;
   font-weight: 600;
+  margin-bottom: 24px;
+}
+
+main .features .meal-name-and-evaluation-score {
+  display: flex;
+  align-items: center;
+}
+
+main .features .meals .meal-name-and-evaluation-score {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+main .features .meals .meal-name-and-evaluation-score .meal-name {
+  font-size: 12px;
+  color: #52545B;
+  background-color: #FFCB65;
+  width: fit-content;
+  padding: 4px 10px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+main .features .meals .meal-name-and-evaluation-score .evaluation-score {
+  display: flex;
+}
+
+main .features .meals .meal-name-and-evaluation-score .evaluation-score img {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+main .features .meals .meal-name-and-evaluation-score .evaluation-score h6 {
+  color: #52545B;
+}
+
+main .features .meals .recipe-summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+main .features .meals .recipe-summary .recipe-detail-card {
+  display: flex;
+}
+
+main .features .meals .recipe-summary .recipe-detail-card .icon-level {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+main .features .meals .recipe-summary .recipe-detail-card .recipe-detail-text .level {
+  font-size: 11px;
+}
+
+main .features .meals .recipe-summary .recipe-detail-card .recipe-detail-text .name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+main .features .meals .recipe-summary .right {
+  margin-bottom: 24px;
+}
+
+main .features .meals .recipe-summary button {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #C2E66E;
+  padding: 13px 95px;
+  border-radius: 12px;
+  border: none;
 }
