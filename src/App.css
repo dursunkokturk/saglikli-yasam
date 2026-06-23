@@ -118,6 +118,7 @@ main .features .meals .recipe-summary .recipe-detail-card .icon-level {
 
 main .features .meals .recipe-summary .recipe-detail-card .recipe-detail-text .level {
   font-size: 11px;
+  color: #8A8C90;
 }
 
 main .features .meals .recipe-summary .recipe-detail-card .recipe-detail-text .name {
