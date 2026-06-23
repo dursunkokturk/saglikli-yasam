@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: Poppins;
 }
 
@@ -14,6 +14,7 @@ body{
   justify-content: space-between;
   padding: 16px;
 }
+
 .header .logo {
   width: 24px;
   height: 24px;
@@ -24,6 +25,32 @@ body{
   height: 24px;
 }
 
-.header h4{
+.header h4 {
   font-weight: 600;
+}
+
+main {
+  padding-inline: 16px;
+  margin-bottom: 20px;
+}
+
+main .hero .title-and-featured-menu-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+main .hero .title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+main .hero .featured-menus {
+  width: 30px;
+  height: 30px;
+}
+
+main .hero .featured-example-menu {
+  width: 100%;
 }
