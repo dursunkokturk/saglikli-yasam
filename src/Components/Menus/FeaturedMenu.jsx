@@ -1,8 +1,8 @@
-import FeaturedMenus from '../assets/img/featured-menus.png'
-import FeaturedExampleMenu from '../assets/img/featured--example-menu.png'
-import Star from '../assets/img/star.png'
-import IconLevel from '../assets/img/icon-level.png'
-import IconCalory from '../assets/img/icon-calory.png'
+import FeaturedMenus from '../../assets/img/featured-menus.png'
+import FeaturedExampleMenu from '../../assets/img/featured--example-menu.png'
+import Star from '../../assets/img/star.png'
+import IconLevel from '../../assets/img/icon-level.png'
+import IconCalory from '../../assets/img/icon-calory.png'
 
 export default function FeaturedMenu() {
   return (
