@@ -149,15 +149,13 @@ main .nutritional-values {
 main .nutritional-values .left .nutritional-values-detail-card,
 main .nutritional-values .right .nutritional-values-detail-card {
   border-radius: 8px;
-}
 
-main .nutritional-values .left .nutritional-values-detail-card,
-main .nutritional-values .right .nutritional-values-detail-card{
-  /* width: 152px; */
+  width: 152px;
   padding: 12px 0px;
   padding-right: 59px;
   margin-bottom: 12px;
 }
+
 main .nutritional-values .left .nutritional-values-detail-card:nth-child(1) {
   background-color: #C2E66E;
 }
