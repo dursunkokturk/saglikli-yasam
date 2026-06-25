@@ -229,3 +229,24 @@ main .menu-lists label {
   font-size: 11px;
   padding: 6px 4px;
 }
+
+main .calory-ranking {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+main .calory-ranking h6 {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+main .calory-ranking label {
+  font-size: 11px;
+  font-weight: 600;
+  background-color: lightgray;
+  padding: 9px 10px;
+  margin-right: 2px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
