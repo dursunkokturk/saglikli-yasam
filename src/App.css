@@ -250,3 +250,21 @@ main .calory-ranking label {
   border-radius: 8px;
   margin-left: 10px;
 }
+
+main .breakfast-card {
+  width: 100%;
+  background-color: rgb(243, 234, 230);
+
+  margin-top: 16px;
+  display: flex;
+}
+
+main .breakfast-card .breakfast-name-and-button .breakfast-name {
+  margin-bottom: 34px; 
+}
+
+main .breakfast-card .breakfast-name-and-button .breakfast-add-button {
+  background-color: #C2E66E;
+  padding: 9px 3px;
+  border: none;
+}
