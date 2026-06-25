@@ -1,9 +1,10 @@
 import IconDown from '../../assets/img/icon-down.png'
 import BreakfastMenu1 from '../../assets/img/breakfast-menu-1.png'
+import IconLevel from '../../assets/img/icon-level.png'
 
 export default function BreakfastMenus() {
   return (
-    <main>
+    <>
       <section className="calory-ranking">
         <h6>Sıralama : </h6>
         <label htmlFor="">
@@ -18,6 +19,26 @@ export default function BreakfastMenus() {
           <button className='breakfast-add-button'>Yemek Planına Ekle</button>
         </div>
       </section>
-    </main>
+      <section>
+        <div className="meal-type--difficulty-level--health-score-write--star-number--score">
+          <div className="meal-type">
+            <h6>Kahvaltı</h6>
+          </div>
+          <div className="difficulty-level">
+            <img src={IconLevel} className='icon-level' alt="" />
+            <h6>Kolay</h6>
+          </div>
+          <div className="health-score-write">
+            <h6>Sağlık Puanı</h6>
+          </div>
+          <div className="star-number">
+            <h6>*******</h6>
+          </div>
+          <div className="score">
+            <h6>9/10</h6>
+          </div>
+        </div>
+      </section>
+    </>
   )
 }

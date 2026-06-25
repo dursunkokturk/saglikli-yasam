@@ -230,18 +230,19 @@ main .menu-lists label {
   padding: 6px 4px;
 }
 
-main .calory-ranking {
+/* ======= BreakfastMenus.jsx Component ======= */
+.calory-ranking {
   margin-top: 16px;
   display: flex;
   align-items: center;
 }
 
-main .calory-ranking h6 {
+.calory-ranking h6 {
   font-size: 11px;
   font-weight: 400;
 }
 
-main .calory-ranking label {
+.calory-ranking label {
   font-size: 11px;
   font-weight: 600;
   background-color: lightgray;
@@ -251,20 +252,54 @@ main .calory-ranking label {
   margin-left: 10px;
 }
 
-main .breakfast-card {
+.breakfast-card {
   width: 100%;
   background-color: rgb(243, 234, 230);
 
   margin-top: 16px;
+  margin-bottom: 20px;
   display: flex;
 }
 
-main .breakfast-card .breakfast-name-and-button .breakfast-name {
-  margin-bottom: 34px; 
+.breakfast-card .breakfast-menu-photo {
+  width: 152px;
+  height: 104px;
+  padding: 16px;
 }
 
-main .breakfast-card .breakfast-name-and-button .breakfast-add-button {
+/* .breakfast-card .breakfast-name-and-button {
+  padding-inline: 16px;
+} */
+.breakfast-card .breakfast-name-and-button .breakfast-name {
+  margin-top: 16px;
+  margin-bottom: 34px;
+}
+
+.breakfast-card .breakfast-name-and-button .breakfast-add-button {
   background-color: #C2E66E;
-  padding: 9px 3px;
+  padding: 9px 30px;
   border: none;
+  border-radius: 8px;
+}
+
+.meal-type--difficulty-level--health-score-write--star-number--score {
+  display: flex;
+  background-color: lightgray;
+  align-items: center;
+  justify-content: center;
+}
+
+.meal-type--difficulty-level--health-score-write--star-number--score h6 {
+  font-weight: 400;
+  padding: 4px 10px;
+}
+
+.meal-type--difficulty-level--health-score-write--star-number--score .difficulty-level {
+  display: flex;
+
+}
+
+.meal-type--difficulty-level--health-score-write--star-number--score .difficulty-level .icon-level {
+  width: 32px;
+  height: 32px;
 }
