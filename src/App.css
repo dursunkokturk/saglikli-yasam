@@ -191,3 +191,30 @@ main .nutritional-values .right .nutritional-values-detail-card img {
   height: 16px;
   margin: 8px;
 }
+
+main .all-menus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .all-menus .title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+main .all-menus label {
+  background-color: lightgray;
+  padding: 9px 6px;
+  border-radius: 8px;
+}
+
+main .all-menus label .icon-filter {
+  padding-left: 10px;
+  padding-right: 4px;
+}
+
+main .all-menus label .icon-down {
+  padding-left: 4px;
+  padding-right: 10px;
+}
