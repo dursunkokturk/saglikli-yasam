@@ -257,7 +257,11 @@ main .menu-lists label {
   background-color: rgb(243, 234, 230);
 
   margin-top: 16px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-radius: 16px;
+}
+
+.breakfast-card .breakfast-photo-name-button {
   display: flex;
 }
 
@@ -267,12 +271,13 @@ main .menu-lists label {
   padding: 16px;
 }
 
-/* .breakfast-card .breakfast-name-and-button {
-  padding-inline: 16px;
-} */
+.breakfast-card .breakfast-name-and-button {
+  padding-bottom: 20px;
+}
+
 .breakfast-card .breakfast-name-and-button .breakfast-name {
   margin-top: 16px;
-  margin-bottom: 34px;
+  margin-bottom: 20px;
 }
 
 .breakfast-card .breakfast-name-and-button .breakfast-add-button {
@@ -282,24 +287,89 @@ main .menu-lists label {
   border-radius: 8px;
 }
 
-.meal-type--difficulty-level--health-score-write--star-number--score {
+.breakfast-card .meal-type--difficulty-level--health-score-write--star-number--score {
   display: flex;
-  background-color: lightgray;
   align-items: center;
   justify-content: center;
+  padding-bottom: 16px;
 }
 
-.meal-type--difficulty-level--health-score-write--star-number--score h6 {
+.breakfast-card .meal-type--difficulty-level--health-score-write--star-number--score h6 {
   font-weight: 400;
   padding: 4px 10px;
 }
 
-.meal-type--difficulty-level--health-score-write--star-number--score .difficulty-level {
+.breakfast-card .meal-type--difficulty-level--health-score-write--star-number--score .difficulty-level {
   display: flex;
 
 }
 
-.meal-type--difficulty-level--health-score-write--star-number--score .difficulty-level .icon-level {
+.breakfast-card .meal-type--difficulty-level--health-score-write--star-number--score .difficulty-level h6 {
+  padding-top: 8px;
+}
+
+.breakfast-card .meal-type--difficulty-level--health-score-write--star-number--score .difficulty-level .icon-level {
   width: 32px;
   height: 32px;
+}
+
+.breakfast-card .meal-type--difficulty-level--health-score-write--star-number--score .health-score {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: fit-content;
+}
+
+.breakfast-card .meal-type--difficulty-level--health-score-write--star-number--score .star-number {
+  display: flex; /* dots zaten flex, bu satır .star-number'ı saran div için */
+}
+
+.breakfast-card .meal-type--difficulty-level--health-score-write--star-number--score .health-score-write {
+  align-self: flex-start;
+}
+
+.breakfast-card .star-number .dots {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.breakfast-card .star-number .dots .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #E1E1E2;
+}
+
+.breakfast-card .star-number .dots .dot.filled {
+  background-color: #FFA257;
+}
+
+.breakfast-card .nutritional-information-specific-to-the-menu {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 6px;
+  width: 300px;
+  margin-inline: 13px;
+}
+
+.breakfast-card .nutritional-information-specific-to-the-menu .calory-information,
+.breakfast-card .nutritional-information-specific-to-the-menu .vitamin-information,
+.breakfast-card .nutritional-information-specific-to-the-menu .protein-information,
+.breakfast-card .nutritional-information-specific-to-the-menu .fats-information {
+  display: flex;
+  align-items: center;
+  padding: 8px 3px;
+}
+
+.breakfast-card .nutritional-information-specific-to-the-menu img {
+  width: 12px;
+  height: 12px;
+}
+
+.breakfast-card .nutritional-information-specific-to-the-menu h6 {
+  font-weight: 400;
+  padding: 8px 6px;
+  text-align: center;
 }
