@@ -2,6 +2,7 @@ import IconFilter from '../../assets/img/icon-filter.png'
 import IconDown from '../../assets/img/icon-down.png'
 import BreakfastMenus from './BreakfastMenus'
 import LunchMenus from './LunchMenus'
+import DinnerMenus from './DinnerMenus'
 
 export default function AllMenus() {
   return (
@@ -23,6 +24,7 @@ export default function AllMenus() {
       </section>
       <BreakfastMenus />
       <LunchMenus />
+      <DinnerMenus />
     </main>
   )
 }
