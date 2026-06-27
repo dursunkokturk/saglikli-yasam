@@ -6,7 +6,7 @@ import IconBread from '../../assets/img/icon-bread.png'
 import IconFish from '../../assets/img/icon-fish.png'
 import IconDrop from '../../assets/img/icon-drop.png'
 
-export default function BreakfastMenus() {
+export default function LunchMenus() {
 
   const healthScore = 8
   const totalDots = 10

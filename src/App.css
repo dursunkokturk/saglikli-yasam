@@ -46,7 +46,8 @@ main .hero .title {
   font-weight: 600;
 }
 
-main .hero .featured-menus {
+main .hero .featured-menus,
+.all-popular-breakfast-menus .popular-menus {
   width: 30px;
   height: 30px;
 }
@@ -321,7 +322,8 @@ main .menu-lists label {
 }
 
 .breakfast-card .meal-type--difficulty-level--health-score-write--star-number--score .star-number {
-  display: flex; /* dots zaten flex, bu satır .star-number'ı saran div için */
+  display: flex;
+  /* dots zaten flex, bu satır .star-number'ı saran div için */
 }
 
 .breakfast-card .meal-type--difficulty-level--health-score-write--star-number--score .health-score-write {
@@ -372,4 +374,77 @@ main .menu-lists label {
   font-weight: 400;
   padding: 8px 6px;
   text-align: center;
+}
+
+/* ========== All Popular Breakfast Menus Component ========== */
+.all-popular-breakfast-menus {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(245, 226, 218);
+}
+
+.all-popular-breakfast-card {
+  display: flex;
+  background-color: white;
+}
+
+.all-popular-breakfast-card .all-popular-breakfast-menu-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.all-popular-breakfast-card .all-popular-breakfast-content {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "name    button"
+    "score   meal-type";
+  flex: 1;
+  align-items: center;
+  padding-right: 16px;
+  column-gap: 8px;
+  row-gap: 8px;
+}
+
+.all-popular-breakfast-card .all-popular-breakfast-content .all-popular-breakfast-name {
+  grid-area: name;
+  font-size: 12px;
+  justify-self: start;
+}
+
+.all-popular-breakfast-card .all-popular-breakfast-content .all-popular-breakfast-add-button {
+  grid-area: button;
+  justify-self: end;
+  background-color: #C2E66E;
+  padding: 7px;
+  border: none;
+  border-radius: 8px;
+  width: 28px;
+  height: 28px;
+}
+
+.all-popular-breakfast-card .all-popular-breakfast-content .meal-type {
+  grid-area: meal-type;
+  justify-self: end;
+}
+
+.all-popular-breakfast-card .all-popular-breakfast-content .meal-type h6 {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.all-popular-breakfast-card .all-popular-breakfast-content .health-score--score {
+  display: flex;
+  align-items: center;
+}
+.all-popular-breakfast-card .all-popular-breakfast-content .health-score--score .health-score .star-number .star {
+  width: 12px;
+  height: 12px;
+}
+
+.all-popular-breakfast-card .all-popular-breakfast-content .health-score--score .score {
+
 }
