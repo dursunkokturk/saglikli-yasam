@@ -1,6 +1,7 @@
 import IconFilter from '../../assets/img/icon-filter.png'
 import IconDown from '../../assets/img/icon-down.png'
 import BreakfastMenus from './BreakfastMenus'
+import LunchMenus from './LunchMenus'
 
 export default function AllMenus() {
   return (
@@ -21,6 +22,7 @@ export default function AllMenus() {
         <label htmlFor="">Akşam Yemeği</label>
       </section>
       <BreakfastMenus />
+      <LunchMenus />
     </main>
   )
 }
