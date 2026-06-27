@@ -378,28 +378,24 @@ main .menu-lists label {
 
 /* ========== All Popular Breakfast Menus Component ========== */
 .all-popular-breakfast-menus {
-  background-color: lightgray;
+  background-color: rgb(243, 234, 230);
   padding: 16px;
   margin-inline: -16px;
 }
+
 .all-popular-breakfast-menus .all-popular-breakfast-card {
   background-color: white;
   border-radius: 16px;
 }
-
-/* .all-popular-breakfast-menus {
-  display: flex;
-  justify-content: space-between;
-} */
 
 .all-popular-breakfast-menus .write-and-photo {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .all-popular-breakfast-menus .all-popular-breakfast-card {
   display: flex;
-  /* background-color: white; */
 }
 
 .all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-menu-photo {
