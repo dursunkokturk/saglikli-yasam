@@ -1,5 +1,5 @@
-import IconFilter from '../../assets/img/icon-filter.png'
-import IconDown from '../../assets/img/icon-down.png'
+import IconFilter from '../../assets/img/icons/icon-filter.png'
+import IconDown from '../../assets/img/icons/icon-down.png'
 import BreakfastMenus from './BreakfastMenus'
 import LunchMenus from './LunchMenus'
 import DinnerMenus from './DinnerMenus'

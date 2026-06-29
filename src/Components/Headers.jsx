@@ -1,5 +1,5 @@
-import Logo from '../assets/img/logo.png'
-import HamburgerMenu from '../assets/img/hamburger-menu.png'
+import Logo from '../assets/img/menu-icons-and-logos/logo.png'
+import HamburgerMenu from '../assets/img/menu-icons-and-logos/hamburger-menu.png'
 
 export default function Headers() {
   return (

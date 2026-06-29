@@ -1,13 +1,13 @@
-import PopularMenus from '../../assets/img/popular-menus.png'
-import IconDown from '../../assets/img/icon-down.png'
-import PopularBreakfastMenu1 from '../../assets/img/popular-breakfast-menu-1.png'
-import PopularBreakfastMenu2 from '../../assets/img/popular-breakfast-menu-2.png'
-import IconLevel from '../../assets/img/icon-level.png'
-import IconCalory from '../../assets/img/icon-calory.png'
-import IconBread from '../../assets/img/icon-bread.png'
-import IconFish from '../../assets/img/icon-fish.png'
-import IconDrop from '../../assets/img/icon-drop.png'
-import Star from '../../assets/img/star.png'
+import PopularMenus from '../../assets/img/popular-menus/popular-menus.png'
+import IconDown from '../../assets/img/icons/icon-down.png'
+import PopularBreakfastMenu1 from '../../assets/img/popular-menus/popular-breakfast-menu-1.png'
+import PopularBreakfastMenu2 from '../../assets/img/popular-menus/popular-breakfast-menu-2.png'
+import IconLevel from '../../assets/img/icons/icon-level.png'
+import IconCalory from '../../assets/img/icons/icon-calory.png'
+import IconBread from '../../assets/img/icons/icon-bread.png'
+import IconFish from '../../assets/img/icons/icon-fish.png'
+import IconDrop from '../../assets/img/icons/icon-drop.png'
+import Star from '../../assets/img/popular-menus/star.png'
 
 export default function AllPopularBreakfastMenus() {
 

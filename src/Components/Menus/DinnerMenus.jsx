@@ -1,10 +1,10 @@
-import IconDown from '../../assets/img/icon-down.png'
-import DinnerMenu1 from '../../assets/img/dinner-menu-1.png'
-import IconLevel from '../../assets/img/icon-level.png'
-import IconCalory from '../../assets/img/icon-calory.png'
-import IconBread from '../../assets/img/icon-bread.png'
-import IconFish from '../../assets/img/icon-fish.png'
-import IconDrop from '../../assets/img/icon-drop.png'
+import IconDown from '../../assets/img/icons/icon-down.png'
+import DinnerMenu1 from '../../assets/img/dinner-menus/dinner-menu-1.png'
+import IconLevel from '../../assets/img/icons/icon-level.png'
+import IconCalory from '../../assets/img/icons/icon-calory.png'
+import IconBread from '../../assets/img/icons/icon-bread.png'
+import IconFish from '../../assets/img/icons/icon-fish.png'
+import IconDrop from '../../assets/img/icons/icon-drop.png'
 
 export default function DinnerMenus() {
 
