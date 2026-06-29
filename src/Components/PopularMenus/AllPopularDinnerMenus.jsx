@@ -1,0 +1,47 @@
+import PopularMenus from '../../assets/img/popular-menus/popular-menus.png'
+import IconDown from '../../assets/img/icons/icon-down.png'
+import PopularDinnerMenu1 from '../../assets/img/popular-menus/popular-dinner-menu-1.png'
+import IconLevel from '../../assets/img/icons/icon-level.png'
+import IconCalory from '../../assets/img/icons/icon-calory.png'
+import IconBread from '../../assets/img/icons/icon-bread.png'
+import IconFish from '../../assets/img/icons/icon-fish.png'
+import IconDrop from '../../assets/img/icons/icon-drop.png'
+import Star from '../../assets/img/popular-menus/star.png'
+
+export default function AllPopularDinnerMenus() {
+
+  const healthScore1 = 4.9
+  const totalDots1 = 5
+
+  return (
+    <>
+      <section className="all-popular-dinner-menus">
+        <div className="all-popular-dinner-card">
+
+          <img src={PopularDinnerMenu1} className='all-popular-dinner-menu-photo' alt="" />
+
+          <div className='all-popular-dinner-content'>
+            <h5 className='all-popular-dinner-name'>Limonlu ve Kuşkonmazlı Izgara Somon</h5>
+            <button className='all-popular-dinner-add-button'>+</button>
+
+            <div className="meal-type">
+              <h6>Akşam</h6>
+            </div>
+
+            <div className="health-score--score">
+              <div className="health-score">
+                <div className="star-number">
+                  <img src={Star} className='star' alt="" />
+                </div>
+              </div>
+
+              <div className="score">
+                <h6>{healthScore1}/5</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}

@@ -1,4 +1,5 @@
 import AllPopularBreakfastMenus from "./AllPopularBreakfastMenus";
+import AllPopularDinnerMenus from "./AllPopularDinnerMenus";
 import AllPopularLunchMenus from "./AllPopularLunchMenus";
 
 export default function AllPopularMenus() {
@@ -6,6 +7,7 @@ export default function AllPopularMenus() {
     <main>
       <AllPopularBreakfastMenus />
       <AllPopularLunchMenus />
+      <AllPopularDinnerMenus />
     </main>
   )
 }
