@@ -386,6 +386,7 @@ main .menu-lists label {
 .all-popular-breakfast-menus .all-popular-breakfast-card {
   background-color: white;
   border-radius: 16px;
+  margin-bottom: 16px;
 }
 
 .all-popular-breakfast-menus .write-and-photo {
