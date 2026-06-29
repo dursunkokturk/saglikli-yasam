@@ -4,6 +4,7 @@ import AllMenus from './Components/Menus/AllMenus'
 import FeaturedMenu from './Components/Menus/FeaturedMenu'
 import AllPopularMenus from './Components/PopularMenus/AllPopularMenus'
 import AllPopularMenu from './Components/PopularMenus/AllPopularMenus'
+import AllRecommendedMenus from './Components/RecommendedMenus/AllRecommendedMenus'
 
 export default function App() {
 
@@ -13,6 +14,7 @@ export default function App() {
       <FeaturedMenu />
       <AllMenus />
       <AllPopularMenus />
+      <AllRecommendedMenus />
     </>
   )
 }
