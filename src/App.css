@@ -377,36 +377,45 @@ main .menu-lists label {
 }
 
 /* ========== All Popular Breakfast Menus Component ========== */
-.all-popular-breakfast-menus {
+.all-popular-lunch-menus {
+  margin-top: -32px;
+}
+.all-popular-breakfast-menus,
+.all-popular-lunch-menus {
   background-color: rgb(243, 234, 230);
   padding: 16px;
   margin-inline: -16px;
 }
 
-.all-popular-breakfast-menus .all-popular-breakfast-card {
+.all-popular-breakfast-menus .all-popular-breakfast-card,
+.all-popular-lunch-menus .all-popular-lunch-card {
   background-color: white;
   border-radius: 16px;
   margin-bottom: 16px;
 }
 
-.all-popular-breakfast-menus .write-and-photo {
+.all-popular-breakfast-menus .write-and-photo,
+.all-popular-lunch-menus .write-and-photo {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.all-popular-breakfast-menus .all-popular-breakfast-card {
+.all-popular-breakfast-menus .all-popular-breakfast-card,
+.all-popular-lunch-menus .all-popular-lunch-card {
   display: flex;
 }
 
-.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-menu-photo {
+.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-menu-photo,
+.all-popular-lunch-menus .all-popular-lunch-card .all-popular-lunch-menu-photo {
   width: 100px;
   height: 100px;
   border-radius: 12px;
   padding: 16px;
 }
 
-.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content {
+.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content,
+.all-popular-lunch-menus .all-popular-lunch-card .all-popular-lunch-content {
   display: grid;
   grid-template-columns: 160px 1fr;
   grid-template-rows: auto auto;
@@ -420,14 +429,16 @@ main .menu-lists label {
   row-gap: 8px;
 }
 
-.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .all-popular-breakfast-name {
+.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .all-popular-breakfast-name,
+.all-popular-lunch-menus .all-popular-lunch-card .all-popular-lunch-content .all-popular-lunch-name {
   grid-area: name;
   font-size: 12px;
   justify-self: start;
   font-weight: 600;
 }
 
-.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .all-popular-breakfast-add-button {
+.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .all-popular-breakfast-add-button,
+.all-popular-lunch-menus .all-popular-lunch-card .all-popular-lunch-content .all-popular-lunch-add-button {
   grid-area: button;
   justify-self: end;
   background-color: #C2E66E;
@@ -438,26 +449,31 @@ main .menu-lists label {
   height: 28px;
 }
 
-.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .meal-type {
+.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .meal-type,
+.all-popular-lunch-menus .all-popular-lunch-card .all-popular-lunch-content .meal-type {
   grid-area: meal-type;
   justify-self: end;
 }
 
-.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .meal-type h6 {
+.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .meal-type h6,
+.all-popular-lunch-menus .all-popular-lunch-card .all-popular-lunch-content .meal-type h6 {
   font-size: 11px;
   font-weight: 400;
 }
 
-.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .health-score--score {
+.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .health-score--score,
+.all-popular-lunch-menus .all-popular-lunch-card .all-popular-lunch-content .health-score--score {
   display: flex;
   align-items: center;
 }
 
-.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .health-score--score .health-score .star-number .star {
+.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .health-score--score .health-score .star-number .star,
+.all-popular-lunch-menus .all-popular-lunch-card .all-popular-lunch-content .health-score--score .health-score .star-number .star {
   width: 12px;
   height: 12px;
 }
 
-.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .health-score--score .score h6 {
+.all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .health-score--score .score h6,
+.all-popular-lunch-menus .all-popular-lunch-card .all-popular-lunch-content .health-score--score .score h6 {
   font-weight: 400;
 }
