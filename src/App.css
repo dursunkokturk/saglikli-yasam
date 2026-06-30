@@ -47,7 +47,8 @@ main .hero .title {
 }
 
 main .hero .featured-menus,
-.all-popular-breakfast-menus .popular-menus {
+.all-popular-breakfast-menus .popular-menus,
+.all-recommended-breakfast-menus .write-and-photo .recommended-menus {
   width: 30px;
   height: 30px;
 }
@@ -427,8 +428,7 @@ main .menu-lists label {
 
 .all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content,
 .all-popular-lunch-menus .all-popular-lunch-card .all-popular-lunch-content,
-.all-popular-dinner-menus .all-popular-dinner-card .all-popular-dinner-content,
-.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content {
+.all-popular-dinner-menus .all-popular-dinner-card .all-popular-dinner-content {
   display: grid;
   grid-template-columns: 160px 1fr;
   grid-template-rows: auto auto;
@@ -454,8 +454,7 @@ main .menu-lists label {
 
 .all-popular-breakfast-menus .all-popular-breakfast-card .all-popular-breakfast-content .all-popular-breakfast-add-button,
 .all-popular-lunch-menus .all-popular-lunch-card .all-popular-lunch-content .all-popular-lunch-add-button,
-.all-popular-dinner-menus .all-popular-dinner-card .all-popular-dinner-content .all-popular-dinner-add-button,
-.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .all-recommended-breakfast-add-button {
+.all-popular-dinner-menus .all-popular-dinner-card .all-popular-dinner-content .all-popular-dinner-add-button {
   grid-area: button;
   justify-self: end;
   background-color: #C2E66E;
@@ -513,4 +512,31 @@ main .menu-lists label {
 .all-popular-lunch-menus .all-popular-lunch-card .all-popular-lunch-content .health-score--score .score h6,
 .all-popular-dinner-menus .all-popular-dinner-card .all-popular-dinner-content .health-score--score .score h6 {
   font-weight: 400;
+}
+
+
+
+
+
+.all-recommended-breakfast-menus .all-recommended-breakfast-card {
+  display: flex;
+}
+
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .all-recommended-breakfast-add-button--meal-type {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .all-recommended-breakfast-add-button--meal-type .all-recommended-breakfast-add-button {
+  background-color: #C2E66E;
+  margin-right: 17px;
+  border: none;
+  border-radius: 8px;
+  width: 28px;
+  height: 28px;
+}
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .all-recommended-breakfast-name {
+  margin-bottom: 26px;
 }

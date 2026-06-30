@@ -15,7 +15,7 @@ export default function AllRecommendedBreakfastMenus() {
       <section className="all-recommended-breakfast-menus">
         <div className="write-and-photo">
           <h5 className="title">Önerilen Menüler</h5>
-          <img src={PopularMenus} className='popular-menus' alt="" />
+          <img src={PopularMenus} className='recommended-menus' alt="" />
         </div>
 
         <div className="all-recommended-breakfast-card">
@@ -24,13 +24,15 @@ export default function AllRecommendedBreakfastMenus() {
 
           <div className='all-recommended-breakfast-content'>
             <h5 className='all-recommended-breakfast-name'>Badem Ezmesi ve Meyveli Yulaf Lapası</h5>
-            <button className='all-recommended-breakfast-add-button'>+</button>
+            <div className="all-recommended-breakfast-add-button--meal-type">
+              <button className='all-recommended-breakfast-add-button'>+</button>
 
-            <div className="meal-type">
-              <h6>Kahvaltı</h6>
+              <div className="meal-type">
+                <h6>Kahvaltı</h6>
+              </div>
             </div>
 
-            <div className="health-score--score">
+            {/* <div className="health-score--score">
               <div className="nutritional-information-specific-to-the-menu">
                 <div className="calory-information">
                   <img src={IconCalory} className='icon-calory' alt="" />
@@ -49,42 +51,7 @@ export default function AllRecommendedBreakfastMenus() {
                   <h6>18 gr F</h6>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="all-recommended-breakfast-card">
-
-          <img src={PopularBreakfastMenu2} className='all-recommended-breakfast-menu-photo' alt="" />
-
-          <div className='all-recommended-breakfast-content'>
-            <h5 className='all-recommended-breakfast-name'>Granola ve Bal ile Yunan Yoğurdu</h5>
-            <button className='all-recommended-breakfast-add-button'>+</button>
-
-            <div className="meal-type">
-              <h6>Kahvaltı</h6>
-            </div>
-
-            <div className="health-score--score">
-              <div className="nutritional-information-specific-to-the-menu">
-                <div className="calory-information">
-                  <img src={IconCalory} className='icon-calory' alt="" />
-                  <h6>320 kcal</h6>
-                </div>
-                <div className="vitamin-information">
-                  <img src={IconBread} alt="" />
-                  <h6>30 gr C</h6>
-                </div>
-                <div className="protein-information">
-                  <img src={IconFish} alt="" />
-                  <h6>14 gr P</h6>
-                </div>
-                <div className="fats-information">
-                  <img src={IconDrop} alt="" />
-                  <h6>18 gr F</h6>
-                </div>
-              </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
