@@ -514,12 +514,12 @@ main .menu-lists label {
   font-weight: 400;
 }
 
-
-
-
-
 .all-recommended-breakfast-menus .all-recommended-breakfast-card {
   display: flex;
+}
+
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .all-recommended-breakfast-name {
+  margin-bottom: 26px;
 }
 
 .all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .all-recommended-breakfast-add-button--meal-type {
@@ -536,7 +536,4 @@ main .menu-lists label {
   border-radius: 8px;
   width: 28px;
   height: 28px;
-}
-.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .all-recommended-breakfast-name {
-  margin-bottom: 26px;
 }
