@@ -514,26 +514,64 @@ main .menu-lists label {
   font-weight: 400;
 }
 
-.all-recommended-breakfast-menus .all-recommended-breakfast-card {
+/* .all-recommended-breakfast-menus .all-recommended-breakfast-card {
+  display: flex;
+} */
+
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-menu-photo--all-recommended-breakfast-name--all-recommended-breakfast-add-button--meal-type--all-recommended-breakfast-add-button--meal-type {
   display: flex;
 }
 
-.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .all-recommended-breakfast-name {
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-menu-photo--all-recommended-breakfast-name--all-recommended-breakfast-add-button--meal-type--all-recommended-breakfast-add-button--meal-type .all-recommended-breakfast-name--all-recommended-breakfast-add-button--meal-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-menu-photo--all-recommended-breakfast-name--all-recommended-breakfast-add-button--meal-type--all-recommended-breakfast-add-button--meal-type .all-recommended-breakfast-name {
   margin-bottom: 26px;
 }
 
-.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .all-recommended-breakfast-add-button--meal-type {
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-menu-photo--all-recommended-breakfast-name--all-recommended-breakfast-add-button--meal-type--all-recommended-breakfast-add-button--meal-type .all-recommended-breakfast-name--all-recommended-breakfast-add-button--meal-type .all-recommended-breakfast-add-button--meal-type {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }
 
-.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .all-recommended-breakfast-add-button--meal-type .all-recommended-breakfast-add-button {
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-menu-photo--all-recommended-breakfast-name--all-recommended-breakfast-add-button--meal-type--all-recommended-breakfast-add-button--meal-type .all-recommended-breakfast-name--all-recommended-breakfast-add-button--meal-type .all-recommended-breakfast-add-button--meal-type .all-recommended-breakfast-add-button {
   background-color: #C2E66E;
   margin-right: 17px;
   border: none;
   border-radius: 8px;
   width: 28px;
   height: 28px;
+}
+
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .health-score--score {
+  display: flex;
+}
+
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .health-score--score .nutritional-information-specific-to-the-menu {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 6px;
+  width: 300px;
+  margin-inline: 13px;
+}
+
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .health-score--score .nutritional-information-specific-to-the-menu .calory-information img,
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .health-score--score .nutritional-information-specific-to-the-menu .vitamin-information img,
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .health-score--score .nutritional-information-specific-to-the-menu .protein-information img,
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .health-score--score .nutritional-information-specific-to-the-menu .fats-information img {
+  width: 12px;
+  height: 12px;
+}
+
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .health-score--score .nutritional-information-specific-to-the-menu .calory-information h6,
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .health-score--score .nutritional-information-specific-to-the-menu .vitamin-information h6,
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .health-score--score .nutritional-information-specific-to-the-menu .protein-information h6,
+.all-recommended-breakfast-menus .all-recommended-breakfast-card .all-recommended-breakfast-content .health-score--score .nutritional-information-specific-to-the-menu .fats-information h6 {
+  font-weight: 400;
+  padding: 8px 6px;
 }

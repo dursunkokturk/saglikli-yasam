@@ -20,19 +20,23 @@ export default function AllRecommendedBreakfastMenus() {
 
         <div className="all-recommended-breakfast-card">
 
-          <img src={RecommendedBreakfastMenu1} className='all-recommended-breakfast-menu-photo' alt="" />
+          <div className="all-recommended-breakfast-menu-photo--all-recommended-breakfast-name--all-recommended-breakfast-add-button--meal-type--all-recommended-breakfast-add-button--meal-type">
+            <img src={RecommendedBreakfastMenu1} className='all-recommended-breakfast-menu-photo' alt="" />
 
-          <div className='all-recommended-breakfast-content'>
-            <h5 className='all-recommended-breakfast-name'>Badem Ezmesi ve Meyveli Yulaf Lapası</h5>
-            <div className="all-recommended-breakfast-add-button--meal-type">
-              <button className='all-recommended-breakfast-add-button'>+</button>
+            <div className="all-recommended-breakfast-name--all-recommended-breakfast-add-button--meal-type">
+              <h5 className='all-recommended-breakfast-name'>Badem Ezmesi ve Meyveli Yulaf Lapası</h5>
+              <div className="all-recommended-breakfast-add-button--meal-type">
+                <button className='all-recommended-breakfast-add-button'>+</button>
 
-              <div className="meal-type">
-                <h6>Kahvaltı</h6>
+                <div className="meal-type">
+                  <h6>Kahvaltı</h6>
+                </div>
               </div>
             </div>
+          </div>
 
-            {/* <div className="health-score--score">
+          <div className='all-recommended-breakfast-content'>
+            <div className="health-score--score">
               <div className="nutritional-information-specific-to-the-menu">
                 <div className="calory-information">
                   <img src={IconCalory} className='icon-calory' alt="" />
@@ -51,8 +55,9 @@ export default function AllRecommendedBreakfastMenus() {
                   <h6>18 gr F</h6>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
+
         </div>
       </section>
     </>
