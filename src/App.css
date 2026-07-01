@@ -34,7 +34,7 @@ main {
   margin-bottom: 20px;
 }
 
-main .hero .title-and-featured-menu-button {
+main .hero .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,14 +46,14 @@ main .hero .title {
   font-weight: 600;
 }
 
-main .hero .featured-menus,
+main .hero .menuIcon,
 .all-popular-breakfast-menus .popular-menus,
 .all-recommended-breakfast-menus .write-and-photo .recommended-menus {
   width: 30px;
   height: 30px;
 }
 
-main .hero .featured-example-menu {
+main .hero .cover {
   width: 100%;
 }
 
@@ -67,17 +67,17 @@ main .features h3 {
   margin-bottom: 24px;
 }
 
-main .features .meal-name-and-evaluation-score {
+main .features .meta {
   display: flex;
   align-items: center;
 }
 
-main .features .meals .meal-name-and-evaluation-score {
+main .features .meals .meta {
   display: flex;
   margin-bottom: 24px;
 }
 
-main .features .meals .meal-name-and-evaluation-score .meal-name {
+main .features .meals .meta .badge {
   font-size: 12px;
   color: #52545B;
   background-color: #FFCB65;
@@ -87,52 +87,52 @@ main .features .meals .meal-name-and-evaluation-score .meal-name {
   margin-right: 16px;
 }
 
-main .features .meals .meal-name-and-evaluation-score .evaluation-score {
+main .features .meals .meta .rating {
   display: flex;
 }
 
-main .features .meals .meal-name-and-evaluation-score .evaluation-score img {
+main .features .meals .meta .rating img {
   width: 14px;
   height: 14px;
   margin-right: 4px;
 }
 
-main .features .meals .meal-name-and-evaluation-score .evaluation-score h6 {
+main .features .meals .meta .rating h6 {
   color: #52545B;
 }
 
-main .features .meals .recipe-summary {
+main .features .meals .details {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 24px;
 }
 
-main .features .meals .recipe-summary .recipe-detail-card {
+main .features .meals .details .detailCard {
   display: flex;
 }
 
-main .features .meals .recipe-summary .recipe-detail-card .icon-level {
+main .features .meals .details .detailCard .icon {
   width: 32px;
   height: 32px;
   margin-right: 10px;
 }
 
-main .features .meals .recipe-summary .recipe-detail-card .recipe-detail-text .level {
+main .features .meals .details .detailCard .detailText .level {
   font-size: 11px;
   color: #8A8C90;
 }
 
-main .features .meals .recipe-summary .recipe-detail-card .recipe-detail-text .name {
+main .features .meals .details .detailCard .detailText .name {
   font-size: 14px;
   font-weight: 600;
 }
 
-main .features .meals .recipe-summary .right {
+main .features .meals .details .right {
   margin-bottom: 24px;
 }
 
-main .features .meals .recipe-summary button {
+main .features .meals .details button {
   font-size: 14px;
   font-weight: 500;
   background-color: #C2E66E;
@@ -143,13 +143,13 @@ main .features .meals .recipe-summary button {
 }
 
 /* FeaturedMenus.jsx Component */
-main .nutritional-values {
+main .nutrition {
   display: flex;
   justify-content: space-between;
 }
 
-main .nutritional-values .left .nutritional-values-detail-card,
-main .nutritional-values .right .nutritional-values-detail-card {
+main .nutrition .left .nutritionCard,
+main .nutrition .right .nutritionCard {
   border-radius: 8px;
 
   width: 152px;
@@ -158,37 +158,37 @@ main .nutritional-values .right .nutritional-values-detail-card {
   margin-bottom: 12px;
 }
 
-main .nutritional-values .left .nutritional-values-detail-card:nth-child(1) {
+main .nutrition .left .nutritionCard:nth-child(1) {
   background-color: #C2E66E;
 }
 
-main .nutritional-values .left .nutritional-values-detail-card:nth-child(2) {
+main .nutrition .left .nutritionCard:nth-child(2) {
   background-color: #FFA257;
 }
 
-main .nutritional-values .right .nutritional-values-detail-card:nth-child(1) {
+main .nutrition .right .nutritionCard:nth-child(1) {
   background-color: #FFCB65;
 }
 
-main .nutritional-values .right .nutritional-values-detail-card:nth-child(2) {
+main .nutrition .right .nutritionCard:nth-child(2) {
   background-color: #E1E1E2;
 }
 
-main .nutritional-values .left .nutritional-values-detail-card {
+main .nutrition .left .nutritionCard {
   display: flex;
 }
 
-main .nutritional-values .left .nutritional-values-detail-card img {
+main .nutrition .left .nutritionCard img {
   width: 16px;
   height: 16px;
   margin: 8px;
 }
 
-main .nutritional-values .right .nutritional-values-detail-card {
+main .nutrition .right .nutritionCard {
   display: flex;
 }
 
-main .nutritional-values .right .nutritional-values-detail-card img {
+main .nutrition .right .nutritionCard img {
   width: 16px;
   height: 16px;
   margin: 8px;
@@ -310,7 +310,7 @@ main .menu-lists label {
   padding-top: 8px;
 }
 
-.breakfast-card .meal-type--difficulty-level--health-score-write--star-number--score .difficulty-level .icon-level {
+.breakfast-card .meal-type--difficulty-level--health-score-write--star-number--score .difficulty-level .icon {
   width: 32px;
   height: 32px;
 }
